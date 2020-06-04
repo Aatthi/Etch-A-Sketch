@@ -18,6 +18,7 @@ function makeRows(rows, cols) {
     {
        cell.style.backgroundColor = 'teal';
     });
+    
     let resetButton = document.getElementById('reset');
     resetButton.addEventListener('click', () => 
     {
